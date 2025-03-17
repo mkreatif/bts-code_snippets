@@ -1,1 +1,44 @@
-{}
+{
+    "BTS Colors": {
+        "prefix": "btsc",
+        "body": [
+            "BTSColors."
+        ],
+        "description": "call bts colors"
+    },
+    "BTS Shadow": {
+        "prefix": "btss",
+        "body": [
+            "BTSShadows."
+        ],
+        "description": "call bts shadows"
+    },
+    "BTS Typography": {
+        "prefix": "btst",
+        "body": [
+            "BTSTypography."
+        ],
+        "description": "call bts typography"
+    },
+    "BTS Opacity": {
+        "prefix": "btsop",
+        "body": [
+            "BTSOpacity."
+        ],
+        "description": "call bts opacity"
+    },
+    "BTS Spacer": {
+        "prefix": "btsspc",
+        "body": [
+            "BTSSpacer.sp${1:8}.value"
+        ],
+        "description": "call bts spacer"
+    },
+    "BTS Leter Spacer": {
+        "prefix": "btsls",
+        "body": [
+            "BTSLetterSpace."
+        ],
+        "description": "call bts spacer"
+    },
+}
