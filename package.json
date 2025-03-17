@@ -3,6 +3,7 @@
   "displayName": "bts_code_snippet",
   "description": "back to school code snippets",
   "version": "0.0.1",
+  "publisher": "mkstudio",
   "engines": {
     "vscode": "^1.98.0"
   },
