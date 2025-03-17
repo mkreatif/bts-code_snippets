@@ -1,65 +1,38 @@
-# bts-code-snippet README
+# BTS Code Snippets
 
-This is the README for your extension "bts-code-snippet". After writing up a brief description, we recommend including the following sections.
+**BTS Code Snippets** adalah kumpulan snippet untuk mempermudah penggunaan komponen dari design system **Back To School (BTS)** dalam pengembangan **Flutter**. Dengan menggunakan ekstensi ini, Anda dapat dengan cepat menambahkan warna, bayangan, tipografi, dan elemen desain lainnya hanya dengan mengetikkan prefix yang sesuai.
 
-## Features
+## Instalasi
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+1. Clone repository ini atau download ekstensi dari Visual Studio Code Marketplace.
+2. Aktifkan ekstensi di VS Code.
+3. Gunakan prefix snippet di editor untuk menyisipkan komponen yang diinginkan.
 
-For example if there is an image subfolder under your extension project workspace:
+## Snippets
 
-\!\[feature X\]\(images/feature-x.png\)
+Berikut adalah daftar snippet yang tersedia dalam **bts-code-snippets**:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+### 1. `bts-colors` → **BTSColors**
+Menampilkan daftar warna utama dari Back To School Design System. Berguna untuk konsistensi warna dalam proyek Flutter.
 
-## Requirements
+### 2. `bts-shadows` → **BTSShadows**
+Menambahkan properti bayangan yang telah dikonfigurasi dalam Back To School Design System. Berguna untuk memberikan efek kedalaman pada UI.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+### 3. `bts-typography` → **BTSTypography**
+Menggunakan gaya tipografi standar dari Back To School Design System. Termasuk heading, subheading, dan body text dengan ukuran yang telah ditentukan.
 
-## Extension Settings
+### 4. `bts-opacity` → **BTSOpacity**
+Mengatur tingkat transparansi elemen berdasarkan skala opacity yang ditentukan dalam Back To School Design System.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### 5. `bts-spacer` → **BTSSpacer**
+Menambahkan jarak antar elemen dengan nilai standar dari Back To School Design System untuk menjaga keteraturan layout.
 
-For example:
+### 6. `bts-letterspace` → **BTSLetterSpace**
+Mengatur jarak antar huruf berdasarkan standar Back To School Design System untuk meningkatkan keterbacaan teks.
 
-This extension contributes the following settings:
+## Kontribusi
+Jika ingin menambahkan snippet baru atau melakukan perbaikan, silakan fork repository ini dan buat pull request.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## Lisensi
+Proyek ini menggunakan lisensi MIT.
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
